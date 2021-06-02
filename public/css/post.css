@@ -1,0 +1,44 @@
+.post {
+  background-color: #f8f8f8;
+  border-radius: 2px;
+  padding: 1.2rem 1.7rem;
+  margin: 1rem 0;
+  box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.post > div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post > div > h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #22705c;
+  justify-self: center;
+}
+
+.post > div > h1::first-letter{
+  text-transform: capitalize;
+}
+
+.post > div > span {
+  color: rgb(170, 170, 170);
+}
+
+.post > span {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgb(170, 170, 170);
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+.post > p {
+  font-size: 1.1rem;
+}
